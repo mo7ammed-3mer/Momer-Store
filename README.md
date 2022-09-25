@@ -13,7 +13,7 @@
 
 ### Demo Screeshots
 
-![MOMER Desktop Demo]("C:\Users\USER\Documents\Portfolio Works\Momer Store\public\Screenshot-images\screenshot-1.png" "Desktop Demo")
+![MOMER Desktop Demo]("C:/Users/USER/Documents/Portfolio Works/Momer Store/public/Screenshot-images/screenshot-1.png" "Desktop Demo")
 
 ### Run Locally
 
