@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="In the MOMER store, you will find 
+    everything you need from excellent shoes to the bestand the latest models
+    from the best international brands.">
+  <link rel="canonical" href="https://momer-store.web.app/">
+  <title>Momer Store</title>
+  <!-- 
+      - social media Meta Tag
+    -->
+  <meta property="og:title" content="Momer Store">
+  <meta property="og:type" content="article">
+  <meta property="og:description" content="In the MOMER store, you will find 
+    everything you need from excellent shoes to the bestand the latest models
+    from the best international brands.">
+  <meta property="og:image" content="https://momer-store.web.app/assets/images/bg-cover.png">
+  <meta property="og:url" content="https://momer-store.web.app/">
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/mo-favicon.png" type="image/svg+xml">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <!-- 
+    - preload banner
+  -->
+  <link rel="preload" href="./assets/images/bg-cover.png" as="image">
+</head>
+
+<body id="top">
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+      <div class="overlay" data-overlay></div>
+      <a href="#" class="logo">
+        <img src="./assets/images/mo-favicon.png" width="55" height="50" alt="MOMER logo">
+      </a>
+      <a href="#" class="navbar-logo"><strong>M</strong>omer</a>
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+      <nav class="navbar" data-navbar>
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#products" class="navbar-link">Products</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#new special" class="navbar-link">New Special</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+        <ul class="nav-action-list">
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              <span class="nav-action-text">Wishlist</span>
+              <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
+            </button>
+          </li>
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+              <data class="nav-action-text" value="318.00">
+                Basket:
+                <strong>74,000 SDG</strong>
+              </data>
+              <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
+            </button>
+          </li>
+          <li>
+            <a href="#" class="nav-action-btn">
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+              <span class="nav-action-text">Login / Register</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <article>
+      <!-- 
+        - #HERO
+      -->
+      <section class="section hero" style="background-image: url('./assets/images/bg-cover.png')">
+
+        <div class="container">
+          <h2 class="h1 hero-title">
+            Best Products In
+            <strong>Best Prices</strong>
+          </h2>
+          <p class="hero-text">
+            In the MOMER store, you will find everything you need
+            from excellent shoes to the bestand the latest models
+            from the best international brands.
+          </p>
+          <button class="btn btn-primary">
+            <span>Shop Now</span>
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+      </section>
+      <!-- 
+        - #COLLECTION
+      -->
+      <section class="section collection">
+        <div class="container">
+          <ul class="collection-list has-scrollbar">
+            <li>
+              <div class="collection-card" style="background-image: url('./assets/images/collection-1.png')">
+
+              </div>
+            </li>
+            <li>
+              <div class="collection-card" style="background-image: url('./assets/images/collection-2.png')">
+              </div>
+            </li>
+            <li>
+              <div class="collection-card" style="background-image: url('./assets/images/collection-3.png')">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- 
+        - #PRODUCT
+      -->
+      <section class="section product" id="products">
+        <div class="container">
+          <h2 class="h2 section-title">Bestsellers Products</h2>
+          <ul class="filter-list">
+            <li>
+              <a href="#" class="filter-btn  active">All</a>
+            </li>
+            <li>
+              <a href="#nike" class="filter-btn">Nike</a>
+            </li>
+            <li>
+              <a href="#" class="filter-btn">Adidas</a>
+            </li>
+            <li>
+              <a href="#" class="filter-btn">Puma</a>
+            </li>
+          </ul>
+          <ul class="product-list">
+            <!--
+              1
+            -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="card-banner">
+                  <img src="./assets/images/product-1.png" width="312" height="350" loading="lazy"
+                    alt="Running Sneaker Shoes" class="image-contain">
+                  <div class="card-badge">New</div>
+                  <ul class="card-action-list">
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                  </ul>
+                </figure>
+                <div class="card-content">
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Nike</a>
+                  </div>
+                  <h3 class="h3 card-title">
+                    <a href="#"> Magista</a>
+                  </h3>
+                  <data class="card-price" value="19,000">19,500 SDG</data>
+                </div>
+              </div>
+            </li>
+            <!--
+              2
+            -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="card-banner">
+                  <img src="./assets/images/product-2.png" width="312" height="350" loading="lazy"
+                    alt="Leather Mens Slipper" class="image-contain">
+                  <ul class="card-action-list">
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                  </ul>
+                </figure>
+                <div class="card-content">
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Adidas</a>
+                  </div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Adidas Weightr</a>
+                  </h3>
+                  <data class="card-price" value="18,000">18,000 SDG</data>
+                </div>
+              </div>
+            </li>
+            <!--
+                3
+              -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="card-banner">
+                  <img src="./assets/images/product-3.png" width="312" height="350" loading="lazy"
+                    alt="Simple Fabric Shoe" class="image-contain">
+                  <div class="card-badge">New</div>
+                  <ul class="card-action-list">
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                  </ul>
+                </figure>
+                <div class="card-content">
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Adidas</a>
+                  </div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Adidas X Pink & White</a>
+                  </h3>
+                  <data class="card-price" value="30,000">30,000 SDG</data>
+                </div>
+              </div>
+            </li>
+            <!--
+              4
+               -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="card-banner">
+                  <img src="./assets/images/product-4.png" width="312" height="350" loading="lazy"
+                    alt="Air Jordan 7 Retro " class="image-contain">
+                  <div class="card-badge"> -25%</div>
+                  <ul class="card-action-list">
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                  </ul>
+                </figure>
+                <div class="card-content">
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Puma</a>
+                  </div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Neymar New Puma X</a>
+                  </h3>
+                  <data class="card-price" value="20,000">
+                    20,000 SDG
+                    <del>$22,000 SDG</del>
+                  </data>
+                </div>
+              </div>
+            </li>
+            <!--
+               5
+                -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="card-banner">
+                  <img src="./assets/images/product-5.png" width="312" height="350" loading="lazy"
+                    alt="Nike Air Max 270 SE" class="image-contain">
+                  <div class="card-badge">New</div>
+                  <ul class="card-action-list">
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                  </ul>
+                </figure>
+                <div class="card-content">
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Adidas</a>
+                  </div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Adidas X Fully White</a>
+                  </h3>
+                  <data class="card-price" value="20,000">20,000 SDG</data>
+                </div>
+              </div>
+            </li>
+            <!--
+               6
+                -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="card-banner">
+                  <img src="./assets/images/product-6.png" width="312" height="350" loading="lazy"
+                    alt="Adidas Sneakers Shoes" class="image-contain">
+                  <ul class="card-action-list">
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                  </ul>
+                </figure>
+                <div class="card-content">
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Adidas</a>
+                  </div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Adidas Green ZZ</a>
+                  </h3>
+                  <data class="card-price" value="17,000">17,000 SDG</data>
+                </div>
+              </div>
+            </li>
+            <!--
+              7
+               -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="card-banner">
+                  <img src="./assets/images/product-7.png" width="312" height="350" loading="lazy"
+                    alt="Nike Basketball shoes" class="image-contain">
+                  <ul class="card-action-list">
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                  </ul>
+                </figure>
+                <div class="card-content">
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Adidas</a>
+                  </div>
+                  <h3 class="h3 card-title">
+                    <a href="#"> Predator Red & Black</a>
+                  </h3>
+                  <data class="card-price" value="19,000">19,000 SDG</data>
+                </div>
+              </div>
+            </li>
+            <!--
+               8
+               -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="card-banner">
+                  <img src="./assets/images/product-8.png" width="312" height="350" loading="lazy"
+                    alt="Simple Fabric Shoe" class="image-contain">
+                  <ul class="card-action-list">
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                  </ul>
+                </figure>
+                <div class="card-content">
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Nike</a>
+                  </div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Flat Full </a>
+                  </h3>
+                  <data class="card-price" value="15,000">15,000 SDG</data>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- 
+        - #SPECIAL
+      -->
+      <section class="section special" id="new special">
+        <div class="container">
+          <div class="special-product">
+            <h2 class="h2 section-title">
+              <span class="text" id="nike">New Special</span>
+              <span class="line"></span>
+            </h2>
+            <ul class="has-scrollbar">
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img src="./assets/images/nike-special-1.png" width="312" height="350" loading="lazy"
+                      alt="Running Sneaker Shoes" class="image-contain">
+                    <div class="card-badge">New</div>
+                    <ul class="card-action-list">
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-1">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </button>
+                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      </li>
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-2">
+                          <ion-icon name="heart-outline"></ion-icon>
+                        </button>
+                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      </li>
+
+
+                    </ul>
+                  </figure>
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Nike</a>
+                    </div>
+                    <h3 class="h3 card-title">
+                      <a href="#">Tiempo V</a>
+                    </h3>
+                    <data class="card-price" value="21,500">21,000 SDG</data>
+                  </div>
+                </div>
+              </li>
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img src="./assets/images/nike-special-2.png" width="312" height="350" loading="lazy"
+                      alt="Leather Mens Slipper" class="image-contain">
+                    <div class="card-badge">New</div>
+                    <ul class="card-action-list">
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-1">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </button>
+                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      </li>
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-2">
+                          <ion-icon name="heart-outline"></ion-icon>
+                        </button>
+                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      </li>
+
+
+                    </ul>
+                  </figure>
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Nike</a>
+                    </div>
+                    <h3 class="h3 card-title">
+                      <a href="#">Leather Shark</a>
+                    </h3>
+                    <data class="card-price" value="19,000">$19,000 SDG</data>
+                  </div>
+                </div>
+              </li>
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img src="./assets/images/nike-special-3.png" width="312" height="350" loading="lazy"
+                      alt="Simple Fabric Shoe" class="image-contain">
+                    <div class="card-badge">New</div>
+                    <ul class="card-action-list">
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-1">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </button>
+                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      </li>
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-2">
+                          <ion-icon name="heart-outline"></ion-icon>
+                        </button>
+                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      </li>
+
+
+                    </ul>
+                  </figure>
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Nike</a>
+                    </div>
+                    <h3 class="h3 card-title">
+                      <a href="#">Phantom Y</a>
+                    </h3>
+                    <data class="card-price" value="21,000">21,000 SDG</data>
+                  </div>
+                </div>
+              </li>
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img src="./assets/images/nike-special-4.png" width="312" height="350" loading="lazy"
+                      alt="Air Jordan 7 Retro " class="image-contain">
+                    <div class="card-badge"> -25%</div>
+                    <ul class="card-action-list">
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-1">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </button>
+                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      </li>
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-2">
+                          <ion-icon name="heart-outline"></ion-icon>
+                        </button>
+                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      </li>
+
+
+                    </ul>
+                  </figure>
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Nike</a>
+                    </div>
+                    <h3 class="h3 card-title">
+                      <a href="#">Phantom Y Retro</a>
+                    </h3>
+                    <data class="card-price" value="23,000">
+                      23,000 SDG
+                      <del>$25,000 SDG</del>
+                    </data>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- 
+        - #SERVICE
+      -->
+      <section class="section service">
+        <div class="container">
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-1.png" width="53" height="28" loading="lazy" alt="Service icon">
+                </div>
+                <div>
+                  <h3 class="h4 card-title">Fast Delivery</h3>
+                  <p class="card-text">
+                    Order completed in
+                    <span>two days</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-2.png" width="43" height="35" loading="lazy" alt="Service icon">
+                </div>
+                <div>
+                  <h3 class="h4 card-title">Quick Payment</h3>
+                  <p class="card-text">
+                    <span>Chash</span>
+                    On Delivery
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-3.png" width="40" height="40" loading="lazy" alt="Service icon">
+                </div>
+                <div>
+                  <h3 class="h4 card-title">Return</h3>
+                  <p class="card-text">
+                    Return your
+                    <span>product</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-4.png" width="40" height="40" loading="lazy" alt="Service icon">
+                </div>
+                <div>
+                  <h3 class="h4 card-title">24/7</h3>
+                  <p class="card-text">
+                    Get Quick
+                    <span>Support</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- 
+    - #FOOTER
+  -->
+      <footer class="footer" id="contact">
+        <div class="footer-top section">
+          <div class="container">
+            <div class="footer-brand">
+              <a href="#" class="logo">
+                <img src="./assets/images/mo-favicon.png" width="55" height="50" alt="MOMER logo">
+              </a>
+              <ul class="social-list">
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-link-box">
+              <!---fotter list 1-->
+              <ul class="footer-list">
+                <li>
+                  <p class="footer-list-title">Contact Us</p>
+                </li>
+                <li>
+                  <address class="footer-link">
+                    <ion-icon name="location"></ion-icon>
+                    <span class="footer-link-text">
+                      Khartoum Sudan
+                    </span>
+                  </address>
+                </li>
+                <li>
+                  <a href="tel:+557343673257" class="footer-link">
+                    <ion-icon name="call"></ion-icon>
+                    <span class="footer-link-text">+249 11111-9090</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:momer-store@gmail.com" class="footer-link">
+                    <ion-icon name="mail"></ion-icon>
+                    <span class="footer-link-text">momer-store@gmail.com</span>
+                  </a>
+                </li>
+              </ul>
+              <!---fotter list 2-->
+              <ul class="footer-list">
+                <li>
+                  <p class="footer-list-title">My Account</p>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                    <span class="footer-link-text">My Account</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                    <span class="footer-link-text">View Cart</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                    <span class="footer-link-text">Favorites</span>
+                  </a>
+                </li>
+
+              </ul>
+              <!---fotter list 3-->
+              <ul class="footer-list">
+                <li>
+                  <p class="footer-list-title">Products</p>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                    <span class="footer-link-text">Nike</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                    <span class="footer-link-text">Adidas</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                    <span class="footer-link-text">Puma</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <p class="copyright">
+              &copy; 2022
+              <a href="https://github.com/mo7ammed-3mer" class="copyright-link">mohammedomer</a>
+
+            </p>
+          </div>
+        </div>
+      </footer>
+      <!-- 
+    - #GO TO TOP
+  -->
+      <a href="#top" class="go-top-btn" data-go-top>
+        <ion-icon name="arrow-up-outline"></ion-icon>
+      </a>
+      <!-- 
+    - custom js link
+  -->
+      <script src="./assets/js/script.js"></script>
+      <!-- 
+    - ionicon link
+  -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
