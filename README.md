@@ -1,11 +1,11 @@
 # Momer-Store
 <div align="center">
   
-  <h2 align="center">MOMER - eCommerce website</h2>
+  <h2 align="center">MOMER Store - Ecommerce website</h2>
 
   MOMER Store is fully responsive ecommerce website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-  <a href="https://mohammedomer.github.io/MOMER/"><strong>➥ Live Demo</strong></a>
+  <a href="https://momer-store.web.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -13,7 +13,7 @@
 
 ### Demo Screeshots
 
-![MOMER Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![MOMER Desktop Demo](./Momer Store/public/Screenshot-images/screenshot-1.png "Desktop Demo")
 
 ### Run Locally
 
