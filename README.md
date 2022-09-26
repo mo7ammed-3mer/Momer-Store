@@ -13,7 +13,7 @@
 
 ### Demo Screeshots
 
-![MOMER Desktop Demo](./Momer%20Store/public/Screenshot-images/screenshot-1.png "Desktop Demo")
+![MOMER Desktop Demo](./public/Screenshot-images/screenshot-1.png "Desktop Demo")
 
 ### Run Locally
 
@@ -22,12 +22,12 @@ To run **MOMER** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/mohammedomer/MOMER.git
+sudo git clone https://github.com/mo7ammed-3mer/Momer-Store.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/mohammedomer/MOMER.git
+git clone https://github.com/mo7ammed-3mer/Momer-Store.git
 ```
 
