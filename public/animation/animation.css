@@ -1,0 +1,63 @@
+/* =============== Transitions for on scroll animation ============= */
+.hidden {
+  opacity: 0;
+  filter: blur(10px);
+  transition: all 1.5s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+}
+
+/* ================ Animations use ================= */
+.hero-title {
+  animation: slideRight 1s ease-out 1s forwards;
+  opacity: 0;
+}
+
+.hero-text {
+  animation: fadeIn 2s ease-in 1.5s forwards;
+  opacity: 0;
+}
+
+.btn-animate {
+  animation: slideUp 1s ease-out 2s forwards;
+  opacity: 0;
+}
+
+/*=============== Animations ===================*/
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  80% {
+    transform: translateX(10%);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
